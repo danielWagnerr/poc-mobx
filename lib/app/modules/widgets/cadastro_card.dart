@@ -1,4 +1,4 @@
-import 'package:banco_bmg/app/modules/login/form_controller.dart';
+import 'package:banco_bmg/app/modules/cadastro/cadastro_controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
@@ -9,7 +9,7 @@ import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 class LoginCard extends StatefulWidget {
   const LoginCard(this.formController);
 
-  final FormController formController;
+  final CadastroController formController;
 
   @override
   _LoginCardState createState() => _LoginCardState();
@@ -19,7 +19,7 @@ class LoginCard extends StatefulWidget {
 class _LoginCardState extends State<LoginCard> {
   @override
   Widget build(BuildContext context) {
-    FormController _formController = widget.formController;
+    CadastroController _formController = widget.formController;
     MaskTextInputFormatter _cpfFormatter = MaskTextInputFormatter(mask: '###.###.###-##',
         filter: { "#": RegExp(r'[0-9]') });
 

@@ -1,15 +1,5 @@
-import 'package:banco_bmg/app/modules/login/form_page.dart';
-import 'package:flutter/material.dart';
+import 'package:banco_bmg/app/app_module.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Banco BMG',
-      debugShowCheckedModeBanner: false,
-      home: FormPage(),
-    );
-  }
-}
+void main() => runApp(ModularApp(module: AppModule()));

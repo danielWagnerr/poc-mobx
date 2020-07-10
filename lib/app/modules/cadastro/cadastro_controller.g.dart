@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'form_controller.dart';
+part of 'cadastro_controller.dart';
 
 // **************************************************************************
 // StoreGenerator
@@ -8,23 +8,23 @@ part of 'form_controller.dart';
 
 // ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
 
-mixin _$FormController on _FormBase, Store {
+mixin _$CadastroController on _CadastroBase, Store {
   Computed<bool> _$isUserCheckPendingComputed;
 
   @override
   bool get isUserCheckPending => (_$isUserCheckPendingComputed ??=
           Computed<bool>(() => super.isUserCheckPending,
-              name: '_FormBase.isUserCheckPending'))
+              name: '_CadastroBase.isUserCheckPending'))
       .value;
   Computed<bool> _$canRegisterComputed;
 
   @override
   bool get canRegister =>
       (_$canRegisterComputed ??= Computed<bool>(() => super.canRegister,
-              name: '_FormBase.canRegister'))
+              name: '_CadastroBase.canRegister'))
           .value;
 
-  final _$nameAtom = Atom(name: '_FormBase.name');
+  final _$nameAtom = Atom(name: '_CadastroBase.name');
 
   @override
   String get name {
@@ -39,7 +39,7 @@ mixin _$FormController on _FormBase, Store {
     });
   }
 
-  final _$emailAtom = Atom(name: '_FormBase.email');
+  final _$emailAtom = Atom(name: '_CadastroBase.email');
 
   @override
   String get email {
@@ -54,7 +54,7 @@ mixin _$FormController on _FormBase, Store {
     });
   }
 
-  final _$passwordAtom = Atom(name: '_FormBase.password');
+  final _$passwordAtom = Atom(name: '_CadastroBase.password');
 
   @override
   String get password {
@@ -69,7 +69,7 @@ mixin _$FormController on _FormBase, Store {
     });
   }
 
-  final _$cpfAtom = Atom(name: '_FormBase.cpf');
+  final _$cpfAtom = Atom(name: '_CadastroBase.cpf');
 
   @override
   String get cpf {
@@ -84,7 +84,7 @@ mixin _$FormController on _FormBase, Store {
     });
   }
 
-  final _$_usernameCheckAtom = Atom(name: '_FormBase._usernameCheck');
+  final _$_usernameCheckAtom = Atom(name: '_CadastroBase._usernameCheck');
 
   @override
   ObservableFuture<bool> get _usernameCheck {
@@ -99,7 +99,7 @@ mixin _$FormController on _FormBase, Store {
     });
   }
 
-  final _$usernameCheckAtom = Atom(name: '_FormBase.usernameCheck');
+  final _$usernameCheckAtom = Atom(name: '_CadastroBase.usernameCheck');
 
   @override
   ObservableFuture<bool> get usernameCheck {
@@ -115,7 +115,7 @@ mixin _$FormController on _FormBase, Store {
   }
 
   final _$validateUsernameAsyncAction =
-      AsyncAction('_FormBase.validateUsername');
+      AsyncAction('_CadastroBase.validateUsername');
 
   @override
   Future<dynamic> validateUsername(String value) {
@@ -123,82 +123,83 @@ mixin _$FormController on _FormBase, Store {
         .run(() => super.validateUsername(value));
   }
 
-  final _$_FormBaseActionController = ActionController(name: '_FormBase');
+  final _$_CadastroBaseActionController =
+      ActionController(name: '_CadastroBase');
 
   @override
   void setCpf(String value) {
-    final _$actionInfo =
-        _$_FormBaseActionController.startAction(name: '_FormBase.setCpf');
+    final _$actionInfo = _$_CadastroBaseActionController.startAction(
+        name: '_CadastroBase.setCpf');
     try {
       return super.setCpf(value);
     } finally {
-      _$_FormBaseActionController.endAction(_$actionInfo);
+      _$_CadastroBaseActionController.endAction(_$actionInfo);
     }
   }
 
   @override
   void setUsername(String value) {
-    final _$actionInfo =
-        _$_FormBaseActionController.startAction(name: '_FormBase.setUsername');
+    final _$actionInfo = _$_CadastroBaseActionController.startAction(
+        name: '_CadastroBase.setUsername');
     try {
       return super.setUsername(value);
     } finally {
-      _$_FormBaseActionController.endAction(_$actionInfo);
+      _$_CadastroBaseActionController.endAction(_$actionInfo);
     }
   }
 
   @override
   void setEmail(String value) {
-    final _$actionInfo =
-        _$_FormBaseActionController.startAction(name: '_FormBase.setEmail');
+    final _$actionInfo = _$_CadastroBaseActionController.startAction(
+        name: '_CadastroBase.setEmail');
     try {
       return super.setEmail(value);
     } finally {
-      _$_FormBaseActionController.endAction(_$actionInfo);
+      _$_CadastroBaseActionController.endAction(_$actionInfo);
     }
   }
 
   @override
   void setPassword(String value) {
-    final _$actionInfo =
-        _$_FormBaseActionController.startAction(name: '_FormBase.setPassword');
+    final _$actionInfo = _$_CadastroBaseActionController.startAction(
+        name: '_CadastroBase.setPassword');
     try {
       return super.setPassword(value);
     } finally {
-      _$_FormBaseActionController.endAction(_$actionInfo);
+      _$_CadastroBaseActionController.endAction(_$actionInfo);
     }
   }
 
   @override
   void validateCPF(String value) {
-    final _$actionInfo =
-        _$_FormBaseActionController.startAction(name: '_FormBase.validateCPF');
+    final _$actionInfo = _$_CadastroBaseActionController.startAction(
+        name: '_CadastroBase.validateCPF');
     try {
       return super.validateCPF(value);
     } finally {
-      _$_FormBaseActionController.endAction(_$actionInfo);
+      _$_CadastroBaseActionController.endAction(_$actionInfo);
     }
   }
 
   @override
   void validatePassword(String value) {
-    final _$actionInfo = _$_FormBaseActionController.startAction(
-        name: '_FormBase.validatePassword');
+    final _$actionInfo = _$_CadastroBaseActionController.startAction(
+        name: '_CadastroBase.validatePassword');
     try {
       return super.validatePassword(value);
     } finally {
-      _$_FormBaseActionController.endAction(_$actionInfo);
+      _$_CadastroBaseActionController.endAction(_$actionInfo);
     }
   }
 
   @override
   void validateEmail(String value) {
-    final _$actionInfo = _$_FormBaseActionController.startAction(
-        name: '_FormBase.validateEmail');
+    final _$actionInfo = _$_CadastroBaseActionController.startAction(
+        name: '_CadastroBase.validateEmail');
     try {
       return super.validateEmail(value);
     } finally {
-      _$_FormBaseActionController.endAction(_$actionInfo);
+      _$_CadastroBaseActionController.endAction(_$actionInfo);
     }
   }
 

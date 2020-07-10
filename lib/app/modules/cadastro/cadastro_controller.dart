@@ -2,11 +2,11 @@ import 'package:cpfcnpj/cpfcnpj.dart';
 import 'package:mobx/mobx.dart';
 import 'package:validators/validators.dart';
 
-part 'form_controller.g.dart';
+part 'cadastro_controller.g.dart';
 
-class FormController = _FormBase with _$FormController;
+class CadastroController = _CadastroBase with _$CadastroController;
 
-abstract class _FormBase with Store {
+abstract class _CadastroBase with Store {
   @observable
   String name = '';
 

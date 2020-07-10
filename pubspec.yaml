@@ -26,6 +26,10 @@ dependencies:
   flutter_screenutil: 2.1.0
   cpfcnpj: 1.0.3
   mask_text_input_formatter: 1.0.7
+  flutter_modular: 1.2.7+1
+  http: 0.12.1
+
+
 
 dev_dependencies:
   flutter_test:
